@@ -51,7 +51,7 @@ function MusicPlayer() {
       <audio
         ref={audioRef}
         src={"/WAR DI TOKOPEDIA - Kobo Kanaeru & Heiakim.mp3"}
-        autoPlay
+        // autoPlay
         loop
         // Event listener untuk mengubah state playing sesuai dengan status audio
         onPlay={() => setPlaying(true)}

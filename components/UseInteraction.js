@@ -12,13 +12,13 @@ export const useInteraction = () => {
   // Menggunakan useEffect untuk menambahkan event listener pada window
   useEffect(() => {
     // Menambahkan event listener untuk mousemove, keydown, dan touchstart
-    window.addEventListener("mousemove", handleInteraction);
+    window.addEventListener("click", handleInteraction);
     window.addEventListener("keydown", handleInteraction);
     window.addEventListener("touchstart", handleInteraction);
 
     // Mengembalikan fungsi bersih untuk menghapus event listener
     return () => {
-      window.removeEventListener("mousemove", handleInteraction);
+      window.removeEventListener("click", handleInteraction);
       window.removeEventListener("keydown", handleInteraction);
       window.removeEventListener("touchstart", handleInteraction);
     };

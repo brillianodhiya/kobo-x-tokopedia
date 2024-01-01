@@ -69,7 +69,7 @@ function MusicPlayer() {
           className="z-30 fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
           onClick={handleClickOutside}
         >
-          <div className="w-[40vw] p-[1vw] bg-white rounded shadow-lg">
+          <div className="w-[40vw] p-[1vw] bg-white rounded-xl shadow-lg">
             <div className="flex items-center justify-between">
               <h3 className="text-[2vw] font-bold">Attention!</h3>
               <button
@@ -84,7 +84,7 @@ function MusicPlayer() {
                 Project ini hanyalah sebatas hasil hobi bukan untuk commercial.{" "}
                 <Image
                   alt="kobo-tokped2"
-                  className="float-right mr-[2vw] mt-[1.8vw]"
+                  className="float-right w-[20vw] mr-[2vw] mt-[1.8vw]"
                   src={"/GBJScPKaAAAvqx-.jpg"}
                   width={240}
                   height={240}
@@ -99,7 +99,7 @@ function MusicPlayer() {
               /> */}
               <p className="mt-[0.5vw] text-[1.2vw]"># Illustration By</p>
               <ul className="list-disc list-inside">
-                <li className="">
+                <li className="text-[1.2vw]">
                   <a
                     className="text-blue-600"
                     target="_blank"
@@ -108,7 +108,7 @@ function MusicPlayer() {
                     @anzailee1
                   </a>
                 </li>
-                <li className="">
+                <li className="text-[1.2vw]">
                   <a
                     className="text-blue-600"
                     target="_blank"
@@ -120,7 +120,7 @@ function MusicPlayer() {
               </ul>
               <p className="mt-[0.5vw] text-[1.2vw]"># Design By</p>
               <ul className="list-disc list-inside">
-                <li className="">
+                <li className="text-[1.2vw]">
                   <a
                     className="text-blue-600"
                     target="_blank"
@@ -132,7 +132,7 @@ function MusicPlayer() {
               </ul>
               <p className="mt-[0.5vw] text-[1.2vw]"># Develop By</p>
               <ul className="list-disc list-inside">
-                <li className="">@kanrisha</li>
+                <li className="text-[1.2vw]">@kanrisha</li>
               </ul>
             </div>
           </div>

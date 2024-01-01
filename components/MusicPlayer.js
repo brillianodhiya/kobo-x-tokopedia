@@ -62,11 +62,11 @@ function MusicPlayer() {
     }
   };
   return (
-    <div className="absolute z-20 bg-white w-[18vw] h-[17vw] bottom-[1.5vw] right-[1.5vw] radius-white">
+    <div className="absolute z-40 bg-white w-[18vw] h-[17vw] bottom-[1.5vw] right-[1.5vw] radius-white">
       {showModal && (
         <div
           id="modal-overlay"
-          className="z-30 fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
+          className="z-40 fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
           onClick={handleClickOutside}
         >
           <div className="w-[40vw] p-[1vw] bg-white rounded-xl shadow-lg">

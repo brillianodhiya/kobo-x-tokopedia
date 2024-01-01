@@ -1,3 +1,4 @@
+import LandscapeAlert from "@koboxtokped/components/LandscapeAlert";
 import MusicPlayer from "@koboxtokped/components/MusicPlayer";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
       id="page-koboxtokoped"
       className="max-h-[100vh] h-[100vh] overflow-hidden"
     >
+      <LandscapeAlert />
       {/* <AudioPlayer /> */}
       <Image
         src="/GBIwkuEacAA5kIc.jpg"
@@ -61,9 +63,70 @@ export default function Home() {
         src={"/Ellipse 14.svg"}
         width={40}
         height={40}
-        className="z-20 absolute right-[0.5%] top-[35%] animated-updown w-[7vw] h-[7vw]"
+        className="z-20 absolute right-[0.5%] top-[35%] animated-updown-right w-[7vw] h-[7vw]"
+      />
+      <Image
+        alt="circle-right"
+        src={"/Ellipse 14.svg"}
+        width={40}
+        height={40}
+        className="z-20 absolute right-[35%] bottom-[4%] animated-updown-bottom w-[5vw] h-[5vw]"
       />
       <MusicPlayer />
+      <div className="flex gap-[3vw] absolute z-30 bottom-[0.8vw] left-[2vw]">
+        <a
+          href="https://www.tokopedia.com/divoomindonesia/divoom-ditoomic-pixel-art-karaoke-speaker-hijau?extParam=whid%3D3385966"
+          target="_blank"
+        >
+          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-xl w-[16vw]">
+            <Image
+              alt="Divoom Ditoo Mic"
+              width={250}
+              height={250}
+              className="w-full"
+              src="/divoom-ditoo-mic-bluetooth-speaker-with-karaoke-function-33003521474756_1100x-584820645.png"
+            />
+            <p className="mt-[0.8vw] text-[1vw] font-medium">
+              Divoom DitooMic Pixel Art Karaoke Speaker
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="https://www.tokopedia.com/mamasing/celengan-kucing-pencuri-koin-otomatis-mama-sing-cat-saving-box-ocelot-remover?extParam=ivf%3Dfalse&src=topads"
+          target="_blank"
+        >
+          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-xl w-[16vw]">
+            <Image
+              alt="Divoom Ditoo Mic"
+              width={250}
+              height={250}
+              className="w-full"
+              src="/ca4493ab0f8bbfe30a9cfcdfd565a013-1724247356.jpg"
+            />
+            <p className="mt-[0.8vw] text-[1vw] font-medium">
+              Celengan Kucing Pencuri Koin Otomatis
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.tokopedia.com/hololivepro/hololive-indonesia-summer-festival-mini-acrylic-figure?extParam=src%3Dshop%26whid%3D12545262"
+          target="_blank"
+        >
+          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-xl w-[16vw]">
+            <Image
+              alt="Divoom Ditoo Mic"
+              width={250}
+              height={250}
+              className="w-full"
+              src="/ecff1c31-3797-4028-8ae8-35e45f777193.jpg.webp"
+            />
+            <p className="mt-[0.8vw] text-[1vw] font-medium">
+              hololive Indonesia SUMMER FESTIVAL Mini...
+            </p>
+          </div>
+        </a>
+      </div>
     </div>
   );
 }

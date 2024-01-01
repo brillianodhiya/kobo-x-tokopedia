@@ -78,7 +78,7 @@ export default function Home() {
           href="https://www.tokopedia.com/divoomindonesia/divoom-ditoomic-pixel-art-karaoke-speaker-hijau?extParam=whid%3D3385966"
           target="_blank"
         >
-          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-xl w-[16vw]">
+          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-[2%] w-[16vw]">
             <Image
               alt="Divoom Ditoo Mic"
               width={250}
@@ -96,7 +96,7 @@ export default function Home() {
           href="https://www.tokopedia.com/mamasing/celengan-kucing-pencuri-koin-otomatis-mama-sing-cat-saving-box-ocelot-remover?extParam=ivf%3Dfalse&src=topads"
           target="_blank"
         >
-          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-xl w-[16vw]">
+          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-[2%] w-[16vw]">
             <Image
               alt="Divoom Ditoo Mic"
               width={250}
@@ -113,7 +113,7 @@ export default function Home() {
           href="https://www.tokopedia.com/hololivepro/hololive-indonesia-summer-festival-mini-acrylic-figure?extParam=src%3Dshop%26whid%3D12545262"
           target="_blank"
         >
-          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-xl w-[16vw]">
+          <div className="shadow-lg hover:scale-110 transition-transform duration-200 active:scale-90 bg-white p-[1vw] rounded-[2%] w-[16vw]">
             <Image
               alt="Divoom Ditoo Mic"
               width={250}

@@ -11,8 +11,7 @@ export default function LandscapeAlert() {
 
   // Menggunakan window.matchMedia untuk mendeteksi orientasi perangkat
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(orientation: portrait)");
-    console.log(mediaQuery.matches);
+    const mediaQuery = window.matchMedia("(max-width: 650px)");
     if (mediaQuery.matches) {
       setOrientation("portrait");
     } else {
@@ -39,7 +38,7 @@ export default function LandscapeAlert() {
       <div className="w-96 p-4 bg-white rounded shadow-lg">
         <div className="flex items-center justify-center">
           <h3 className="text-lg font-bold text-gray-900">
-            Gunakan mode landscape
+            Gunakan mode landscape untuk pengalaman yang lebih baik
           </h3>
         </div>
       </div>

@@ -69,7 +69,7 @@ function MusicPlayer() {
           className="z-40 fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
           onClick={handleClickOutside}
         >
-          <div className="w-[40vw] p-[1vw] bg-white rounded-xl shadow-lg">
+          <div className="w-[40vw] p-[1vw] bg-white rounded-[2%] shadow-lg">
             <div className="flex items-center justify-between">
               <h3 className="text-[2vw] font-bold">Attention!</h3>
               <button

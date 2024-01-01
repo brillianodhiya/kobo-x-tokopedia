@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,115 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-updown {
+  animation-name: updown;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes updown2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-updown2 {
+  animation-name: updown2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.wardiskon {
+  font-size: 7vw;
+  background: linear-gradient(100.97deg, #5ddf7e 21.48%, #8fe3d5 78.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  line-height: 7.5vw;
+  /* letter-spacing: 0em; */
+  text-align: left;
+}
+
+/* animation change background font color  */
+@keyframes change {
+  0% {
+    background: linear-gradient(100.97deg, #5ddf7e 21.48%, #8fe3d5 78.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white; /* properti yang ditambahkan */
+  }
+  50% {
+    background: linear-gradient(0deg, #5ddf7e 21.48%, #8fe3d5 78.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black; /* properti yang ditambahkan */
+  }
+  100% {
+    background: linear-gradient(100.97deg, #5ddf7e 21.48%, #8fe3d5 78.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white; /* properti yang ditambahkan */
+  }
+}
+
+.animated-change {
+  animation-name: change;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.radius-white {
+  border-top-left-radius: 100%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+/* spin animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.disc {
+  border: 2.3vw solid #1a2235;
+  cursor: pointer;
+}
+
+.spin-disc {
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.spin-disc-paused {
+  animation-play-state: paused;
 }
